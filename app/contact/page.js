@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../../components/Navbar';
 import Link from 'next/link';
+import { FaInstagram } from 'react-icons/fa';
 
 export const metadata = {
   title: "Kontak Youth Tiger Soccer School - Hubungi Kami",
@@ -22,7 +23,7 @@ export default function Contact() {
         </p>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-bold mb-2">Alamat</h2>
-          <p className="text-lg">Stadion Elang Bondol, Bogor</p>
+          <p className="text-lg">Stadion Elang Bondol, Jl. Salabenda Raya, Atang Senjaya, Kec. Kemang, Kabupaten Bogor, Jawa Barat 16310</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-md mt-8">
           <h2 className="text-2xl font-bold mb-2">Jam Operasional</h2>
@@ -38,6 +39,32 @@ export default function Contact() {
           Pelajari Lebih Lanjut Tentang Program Kami
         </Link>
       </main>
+            <footer className="bg-gray-800 text-white py-10">
+              <div className="max-w-6xl mx-auto px-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div>
+                    <h3 className="text-xl font-bold mb-4">Home Ground</h3>
+                    <p>Stadion Elang Bondol, Jl. Salabenda Raya, Atang Senjaya, Kec. Kemang, Kabupaten Bogor, Jawa Barat 16310</p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-4">Kontak</h3>
+                    <p>Telepon: +62 812 3456 7890</p>
+                    <p>Email: info@youthtigersoccerschool.com</p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-4">Sosial Media</h3>
+                    <div className="flex space-x-4">
+                      <a href="https://www.instagram.com/youthtigersoccerschool" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
+                      <FaInstagram/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-8 text-center">
+                  <p>&copy; {new Date().getFullYear()} Youth Tiger Soccer School. All rights reserved.</p>
+                </div>
+              </div>
+            </footer>
     </>
   )
 }

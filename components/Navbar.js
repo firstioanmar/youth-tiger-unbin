@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -12,15 +13,24 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-orange-600 p-4">
+    <nav className="bg-orange-600 p-4 relative">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-white text-2xl font-bold">Youth Tiger Soccer School</Link>
+        <div className="flex items-center">
+          <Image
+            src="/images/logo.jpg"
+            alt="Logo Brand"
+            width={32}
+            height={32}
+            className="mr-2"
+          />
+          <Link href="/" className="text-white text-xl md:text-2xl font-bold">YTSS</Link>
+        </div>
         <div className="lg:hidden">
           <button onClick={toggleMenu} className="text-white text-2xl">
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
-        <ul className={`lg:flex gap-1 ${isOpen ? 'flex flex-col absolute top-16 right-0 bg-orange-600 w-full p-4' : 'hidden'}`}>
+        <ul className={`lg:flex gap-2 ${isOpen ? 'flex flex-col absolute top-16 right-0 bg-orange-600 w-full p-4 z-50 px-6' : 'hidden'}`}>
           <li>
             <Link 
               href="/" 
@@ -56,11 +66,11 @@ export default function Navbar() {
           <li>
             <Link 
               href="https://forms.gle/BqG2ox1ca1vif7Zw7" 
-              className="text-white block py-2 px-4 bg-red-600 rounded hover:bg-red-700 transition-all duration-300 transform hover:scale-110"
+              className="text-white block py-2 px-4 bg-red-600 rounded-lg hover:bg-red-700 transition-all duration-300 transform hover:scale-110"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Pendaftaran
+              Daftar Sekarang
             </Link>
           </li>
         </ul>
