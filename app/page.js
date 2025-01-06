@@ -69,7 +69,7 @@ export default function Home() {
         <p className="text-md md:text-lg text-center mt-4">
           Dengan pengalaman dan dedikasi kami, kami berkomitmen untuk membentuk generasi pemain sepak bola yang hebat dan beretika tinggi.
         </p>
-        <Link href="/terntang-kami" className="mt-8 text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+        <Link href="/tentang-kami" className="mt-8 text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
           Pelajari Lebih Lanjut Tentang Kami
         </Link>
       </section>
