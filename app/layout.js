@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Head from 'next/head';
-import { useEffect } from 'react';
 import Script from 'next/script';
 
 const geistSans = Geist({
@@ -20,13 +19,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  useEffect(() => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-L7NVYJ00WM');
-  }, []);
-
   return (
     <html lang="en">
       <Head>
