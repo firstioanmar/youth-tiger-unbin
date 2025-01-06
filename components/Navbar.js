@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.png"
             alt="Logo Brand"
             width={32}
             height={32}
@@ -41,7 +41,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link 
-              href="/about" 
+              href="/tentang-kami" 
               className="text-white block py-2 px-4 hover:bg-orange-700 transition-all duration-300 transform hover:scale-110"
             >
               Tentang Kami
@@ -49,7 +49,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link 
-              href="/programs" 
+              href="/program" 
               className="text-white block py-2 px-4 hover:bg-orange-700 transition-all duration-300 transform hover:scale-110"
             >
               Program
@@ -57,7 +57,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link 
-              href="/contact" 
+              href="/kontak" 
               className="text-white block py-2 px-4 hover:bg-orange-700 transition-all duration-300 transform hover:scale-110"
             >
               Kontak

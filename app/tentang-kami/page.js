@@ -9,7 +9,7 @@ export const metadata = {
   description: "Pelajari lebih lanjut tentang Youth Tiger Soccer School, visi, misi, dan tujuan kami dalam mengembangkan generasi pemain sepak bola yang hebat.",
 };
 
-export default function About() {
+export default function TentangKami() {
   return (
     <>
       <Head>
@@ -45,7 +45,7 @@ export default function About() {
               <p className="text-lg">
                 Misi kami adalah menyediakan program pelatihan sepak bola yang berkualitas tinggi, membantu peserta kami mengembangkan keterampilan sepak bola, fisik, dan mental, serta menanamkan nilai-nilai positif.
               </p>
-              <Link href="/programs" className="mt-8 text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+              <Link href="/program" className="mt-8 text-white bg-blue-500 hover:bg-blue-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
                 Pelajari Lebih Lanjut Tentang Program Kami
               </Link>
             </div>

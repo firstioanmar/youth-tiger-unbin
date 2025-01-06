@@ -8,7 +8,7 @@ export const metadata = {
   description: "Temukan berbagai program pelatihan sepak bola yang kami tawarkan untuk anak-anak dan remaja di Bogor.",
 };
 
-export default function Programs() {
+export default function Program() {
   return (
     <>
       <Head>
@@ -79,9 +79,8 @@ export default function Programs() {
           </table>
         </section>
         <section className="mt-16">
-          <h2 className="text-3xl font-bold mb-4 text-orange-600 hover:text-orange-800 transition-colors duration-300">Pricing</h2>
+          <h2 className="text-3xl font-bold mb-4 text-orange-600 hover:text-orange-800 transition-colors duration-300">Biaya Pendaftaran</h2>
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-            <h3 className="text-2xl font-bold mb-2 text-red-600 hover:text-red-800 transition-colors duration-300">Biaya Pendaftaran</h3>
             <p className="text-lg mb-4">
               Sekolah ini menerima siswa dengan rentang usia 4 hingga 16 tahun.
             </p>

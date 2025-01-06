@@ -8,7 +8,7 @@ export const metadata = {
   description: "Temukan informasi kontak Youth Tiger Soccer School, alamat, jam operasional, dan cara menghubungi kami.",
 };
 
-export default function Contact() {
+export default function Kontak() {
   return (
     <>
       <Head>
@@ -35,7 +35,7 @@ export default function Contact() {
           <p className="text-lg">Email: info@youthtigersoccerschool.com</p>
           <p className="text-lg">Telepon: +62 812 345 6789</p>
         </div>
-        <Link href="/programs" className="mt-8 text-blue-500 hover:underline">
+        <Link href="/program" className="mt-8 text-blue-500 hover:underline">
           Pelajari Lebih Lanjut Tentang Program Kami
         </Link>
       </main>
