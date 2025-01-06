@@ -22,38 +22,38 @@ export default function Program() {
           Youth Tiger Soccer School menawarkan berbagai program pelatihan sepak bola yang dirancang untuk membantu anak-anak dan remaja mengembangkan keterampilan sepak bola, fisik, dan mental. Berikut adalah beberapa program yang kami tawarkan:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-orange-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-gray-100">
             <h2 className="text-2xl font-bold mb-2 text-red-600 hover:text-red-800 transition-colors duration-300">Pengembangan Keterampilan Dasar Sepak Bola</h2>
             <p className="text-lg">
               Anak-anak diajarkan keterampilan dasar seperti menggiring bola (dribbling), menendang (shooting), passing, dan bertahan (defending). Program ini dirancang untuk membantu peserta memahami dasar-dasar sepak bola dan meningkatkan keterampilan mereka secara bertahap.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-orange-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-gray-100">
             <h2 className="text-2xl font-bold mb-2 text-red-600 hover:text-red-800 transition-colors duration-300">Pelatihan Fisik dan Mental</h2>
             <p className="text-lg">
               Program ini mencakup latihan fisik untuk meningkatkan kebugaran, kecepatan, kelincahan, serta pelatihan mental seperti kerja sama tim, kepercayaan diri, dan sportivitas. Kami memastikan bahwa peserta kami tidak hanya menjadi pemain yang hebat, tetapi juga individu yang kuat dan beretika tinggi.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-orange-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-gray-100">
             <h2 className="text-2xl font-bold mb-2 text-red-600 hover:text-red-800 transition-colors duration-300">Pendekatan Usia dan Tingkat Kemampuan</h2>
             <p className="text-lg">
               Pelatihan biasanya dibagi berdasarkan kelompok usia dan tingkat kemampuan, sehingga anak-anak dapat belajar sesuai dengan kapasitas mereka. Kami memahami bahwa setiap peserta memiliki kecepatan belajar yang berbeda, dan program kami dirancang untuk memenuhi kebutuhan setiap peserta.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-orange-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-gray-100">
             <h2 className="text-2xl font-bold mb-2 text-red-600 hover:text-red-800 transition-colors duration-300">Kompetisi dan Turnamen</h2>
             <p className="text-lg">
               Untuk meningkatkan pengalaman, peserta sering kali diberi kesempatan mengikuti pertandingan atau turnamen, baik internal maupun eksternal. Program ini membantu peserta memperoleh pengalaman nyata dan meningkatkan keterampilan mereka dalam situasi yang nyata.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-orange-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:bg-gray-100">
             <h2 className="text-2xl font-bold mb-2 text-red-600 hover:text-red-800 transition-colors duration-300">Pendidikan Nilai Positif</h2>
             <p className="text-lg">
               Selain keterampilan teknis, sekolah ini juga berusaha menanamkan nilai-nilai positif seperti kedisiplinan, kerja keras, dan rasa hormat kepada sesama pemain. Kami percaya bahwa nilai-nilai ini sangat penting dalam membentuk karakter peserta kami.
             </p>
           </div>
         </div>
-        <section className="mt-16">
+        <section className="mt-16 bg-gray-50 p-6 rounded-lg shadow-md">
           <h2 className="text-3xl font-bold mb-4 text-orange-600 hover:text-orange-800 transition-colors duration-300">Jadwal Latihan</h2>
           <table className="w-full border-collapse">
             <thead>
@@ -78,9 +78,9 @@ export default function Program() {
             </tbody>
           </table>
         </section>
-        <section className="mt-16">
+        <section className="mt-16 bg-gray-50 p-6 rounded-lg shadow-md">
           <h2 className="text-3xl font-bold mb-4 text-orange-600 hover:text-orange-800 transition-colors duration-300">Biaya Pendaftaran</h2>
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+          <div className="bg-orange-100 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
             <p className="text-lg mb-4">
               Sekolah ini menerima siswa dengan rentang usia 4 hingga 16 tahun.
             </p>
@@ -96,20 +96,20 @@ export default function Program() {
       <footer className="bg-gray-800 text-white py-10">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
+            <div className="bg-gray-700 p-4 rounded-lg transition-transform transform hover:scale-105">
               <h3 className="text-xl font-bold mb-4">Home Ground</h3>
               <p>Stadion Elang Bondol, Jl. Salabenda Raya, Atang Senjaya, Kec. Kemang, Kabupaten Bogor, Jawa Barat 16310</p>
             </div>
-            <div>
+            <div className="bg-gray-700 p-4 rounded-lg transition-transform transform hover:scale-105">
               <h3 className="text-xl font-bold mb-4">Kontak</h3>
               <p>Telepon: +62 812 3456 7890</p>
               <p>Email: info@youthtigersoccerschool.com</p>
             </div>
-            <div>
+            <div className="bg-gray-700 p-4 rounded-lg transition-transform transform hover:scale-105">
               <h3 className="text-xl font-bold mb-4">Sosial Media</h3>
               <div className="flex space-x-4">
-                <a href="https://www.instagram.com/youthtigersoccerschool" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-500 transition-colors duration-300">
-                  <FaInstagram/>
+                <a href="https://www.instagram.com/youthtigersoccerschool" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-500">
+                  <FaInstagram />
                 </a>
               </div>
             </div>
@@ -120,5 +120,5 @@ export default function Program() {
         </div>
       </footer>
     </>
-  )
+  );
 }

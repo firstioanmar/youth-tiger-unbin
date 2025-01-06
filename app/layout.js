@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Head from 'next/head';
+import { useEffect } from 'react';
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,10 +20,29 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-L7NVYJ00WM');
+  }, []);
+
   return (
     <html lang="en">
       <Head>
         <link rel="icon" href="favicon.ico" />
+        {/* Google Tag Manager */}
+        <Script
+          id="gtag"
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-L7NVYJ00WM`}
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-L7NVYJ00WM');`}
+        </Script>
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

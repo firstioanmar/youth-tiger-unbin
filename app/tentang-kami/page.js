@@ -18,18 +18,18 @@ export default function TentangKami() {
       </Head>
       <Navbar />
       <main className="container mx-auto p-4 md:p-8">
-        <div className="hidden md:block mb-8">
+        <div className="mb-8">
           <div className="flex">
-            <div className=" w-1/2 bg-white rounded-lg shadow-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300">
+            <div className="hidden md:block w-2/6 bg-white rounded-lg shadow-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300">
               <Image
-                src="/path/to/your/image.jpg" // Ganti dengan path gambar Anda
+                src="/images/tentang-kami.jpg" // Ganti dengan path gambar Anda
                 alt="Youth Tiger Soccer School"
                 width={600}
                 height={400}
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className=" w-1/2 p-4">
+            <div className=" w-full md:w-4/6 p-4">
               <h1 className="text-4xl font-bold mb-4">Tentang Kami</h1>
               <p className="text-lg mb-4">
                 Youth Tiger Soccer School adalah sebuah program pelatihan sepak bola yang dirancang untuk anak-anak dan remaja di Bogor. Kami berkomitmen untuk membantu setiap peserta kami mencapai potensi maksimal dalam bermain sepak bola.
@@ -55,20 +55,20 @@ export default function TentangKami() {
       <footer className="bg-gray-800 text-white py-10">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
+            <div className="bg-gray-700 p-4 rounded-lg transition-transform transform hover:scale-105">
               <h3 className="text-xl font-bold mb-4">Home Ground</h3>
               <p>Stadion Elang Bondol, Jl. Salabenda Raya, Atang Senjaya, Kec. Kemang, Kabupaten Bogor, Jawa Barat 16310</p>
             </div>
-            <div>
+            <div className="bg-gray-700 p-4 rounded-lg transition-transform transform hover:scale-105">
               <h3 className="text-xl font-bold mb-4">Kontak</h3>
               <p>Telepon: +62 812 3456 7890</p>
               <p>Email: info@youthtigersoccerschool.com</p>
             </div>
-            <div>
+            <div className="bg-gray-700 p-4 rounded-lg transition-transform transform hover:scale-105">
               <h3 className="text-xl font-bold mb-4">Sosial Media</h3>
               <div className="flex space-x-4">
-                <a href="https://www.instagram.com/youthtigersoccerschool" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500">
-                  <FaInstagram/>
+                <a href="https://www.instagram.com/youthtigersoccerschool" target="_blank" rel="noopener noreferrer" className="text-orange-400 hover:text-orange-500">
+                  <FaInstagram />
                 </a>
               </div>
             </div>
